@@ -1,14 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import NextLink from "next/link";
-import earthAbstract from "../assets/earth-abstract.png";
-import skyscraper from "../assets/skyscraper.svg";
-import facebook from "../assets/Facebook.svg";
-import Twitter from "../assets/Twitter.svg";
-import Email from "../assets/Email.svg";
-import BookNow from "../assets/bookNow.svg";
-import desc2 from "../assets/desc 2.svg";
-import GinSmith from "../assets/GinSmith Booking.svg";
+import earthAbstract from "../assets/images/earth-abstract.png";
+import skyscraper from "../assets/images/skyscraper.svg";
+import facebook from "../assets/images/Facebook.svg";
+import Twitter from "../assets/images/Twitter.svg";
+import Email from "../assets/images/Email.svg";
+import BookNow from "../assets/images/bookNow.svg";
 
 const Home = () => {
   const socials = [Email, Twitter, facebook];
@@ -42,27 +40,25 @@ const Home = () => {
               className="object-cover"
             />
 
-            <p className="">
-              <Image src={desc2} alt="Desc" />
-              {/* With Our 24/7 operation, get around the world, via our trusted */}
-              {/* platform. */}
+            <p className="text-[28px] leading-[28px] font-[400] text-[#D7B67E] text-center font-sulphur-point w-[332px]">
+              With Our 24/7 operation, get around the world, via our trusted
+              platform.
             </p>
           </div>
 
           <div className="flex flex-col justify-center items-center">
             <div>
-              <h1 className="text-[100px] font-normal text-[#D7B67E] font-['Water Brush']">
-                <Image src={GinSmith} alt="Book-Now" />
-                {/* GinSmith Booking */}
+              <h1 className="text-[100px] font-normal text-[#D7B67E] font-water-brush">
+                GinSmith Booking
               </h1>
-              <p className="text-[30px] font-[400] text-[#D7B67E] text-center font-[Sulphur Point]">
+              <p className="text-[30px] font-[400] text-[#D7B67E] text-center font-sulphur-point">
                 Your Trusted Lodging Agency
               </p>
 
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center mt-[42px]">
                 {socials.map((social, index) => (
                   <NextLink href="#" key={index} legacyBehavior passHref>
-                    <a href="#" className=" ml-[28px] mt-[62px]">
+                    <a href="#" className=" ml-[28px] ">
                       <Image src={social} alt="social icons" />
                     </a>
                   </NextLink>
@@ -71,8 +67,8 @@ const Home = () => {
             </div>
 
             <NextLink href="/explore" passHref legacyBehavior>
-              <a className="self-end mt-[90px]">
-                <Image src={BookNow} alt="Book-Now" />
+              <a className="mt-[90px] bg-[#011717] py-[16px] text-center font-sulphur-point text-[30px] font-[300] w-[557px] text-white rounded-[40px]">
+                Book Now
               </a>
             </NextLink>
           </div>
