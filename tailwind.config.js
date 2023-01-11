@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "sulphur-point": ["Sulphur Point", "sans-serif"],
+        "water-brush": ["Water Brush", "cursive"],
+      },
+    },
   },
   plugins: [],
 };
