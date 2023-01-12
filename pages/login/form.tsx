@@ -10,7 +10,7 @@ const Form = () => {
   return (
     <div>
       <h1 className="text-[40px] font-[400] text-white leading-[40px] text-center font-sulphur-point mb-[36px]">
-        LOG UP
+        LOG IN
       </h1>
 
       <div className="flex flex-col items-center bg-white rounded-[30px] py-[37px] w-[508px]">
