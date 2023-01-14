@@ -16,7 +16,7 @@ const FormInput = () => {
             key={index}
             type={input.type}
             placeholder={input.placeholder}
-            className="drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] rounded-[30px] w-[351px] h-[41px] mb-[26px] p-[15px_30px] outline-[0] text-[black] placeholder:text-[15px] font-[400] text-[#B3B3B3] font-sulphur-point "
+            className="drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] rounded-[30px] w-[351px] h-[41px] mb-[19px] p-[15px_30px] outline-[0] text-[black] placeholder:text-[15px] font-[400] text-[#B3B3B3] font-sulphur-point "
           />
         );
       })}

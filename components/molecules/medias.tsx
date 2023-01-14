@@ -3,7 +3,7 @@ import NextLink from "next/link";
 
 const Medias = () => {
   return (
-    <div className="flex justify-center mb-[50px]">
+    <div className="flex justify-center mb-[20px]">
       <NextLink href="#" legacyBehavior passHref>
         <a
           href="#"
