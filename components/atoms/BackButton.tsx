@@ -11,12 +11,12 @@ const BackButton = ({ href }: BackButtonProps) => {
   return (
     <>
       <NextLink href={href} legacyBehavior passHref>
-        <div className="mr-[89px] bg-[#EC1F25] w-[47px] h-[47px] rounded-[50%] p-[5px] ">
+        <div className=" grid place-items-center mr-[26px] bg-[#EC1F25] w-[37px] pr-[4px] h-[37px] rounded-[50%]  cursor-pointer ">
           <Image
             src={arrow}
             alt="arrow"
-            width="30"
-            height="30"
+            width="20"
+            height="20"
             className="grid place-items-center"
           />
         </div>

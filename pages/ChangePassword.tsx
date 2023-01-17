@@ -10,11 +10,9 @@ const ChangePassword = () => {
       </Head>
 
       <div className="bg-[#035655] h-[100vh] ">
-        <div className="pl-[51px] flex items-center bg-white w-full font-sulphur-point font-[700] text-[30px] py-[19px] ">
-          <PagesHeader title="Change Password" href="/MyProfile" />
-        </div>
+        <PagesHeader title="Change Password" href="/myProfile" />
 
-        <div className="bg-[#035655] pt-[52px] pl-[187px] ">
+        <div className="pt-[30px] pl-[120px]">
           <div className="flex flex-col mb-[65px] ">
             <label
               htmlFor="old-Password"
