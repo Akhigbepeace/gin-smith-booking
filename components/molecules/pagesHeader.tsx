@@ -1,5 +1,5 @@
 import React from "react";
-import BackButton from "../atoms/backButton";
+import BackButton from "../atoms/BackButton";
 
 type pagesHeaderProps = {
   title: string;

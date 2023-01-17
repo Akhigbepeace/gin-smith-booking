@@ -1,5 +1,5 @@
 import React from "react";
-import BackButton from "../components/atoms/backButton";
+import BackButton from "../components/atoms/BackButton";
 
 const EditProfile = () => {
   return (

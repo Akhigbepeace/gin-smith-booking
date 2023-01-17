@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import FormTitle from "../components/atoms/formTitle";
+import FormTitle from "../components/atoms/FormTitle";
 import DescBanner from "../components/molecules/descBanner";
 import SubmitButton from "../components/atoms/submitButton";
 

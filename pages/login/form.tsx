@@ -1,7 +1,7 @@
 import React from "react";
 import Medias from "../../components/molecules/medias";
 import NextLink from "next/link";
-import FormTitle from "../../components/atoms/formTitle";
+import FormTitle from "../../components/atoms/FormTitle";
 import SubmitButton from "../../components/atoms/submitButton";
 
 const Form = () => {

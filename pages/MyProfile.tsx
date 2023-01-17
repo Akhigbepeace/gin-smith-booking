@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/legacy/image";
 import React from "react";
-import BackButton from "../components/atoms/backButton";
+// import BackButton from "../components/atoms/backButton";
+import BackButton from "../components/atoms/BackButton";
 import userProfile from "../assets/images/user-image.svg";
 import NextLink from "next/link";
 
