@@ -2,7 +2,7 @@ import React from "react";
 import Medias from "../../components/molecules/medias";
 import NextLink from "next/link";
 import FormInput from "../../components/molecules/formInput";
-import FormTitle from "../../components/atoms/FormTitle";
+import FormTitle from "../../components/atoms/formTitle";
 import SubmitButton from "../../components/atoms/submitButton";
 
 const Form = () => {
@@ -23,7 +23,7 @@ const Form = () => {
           <FormInput />
         </div>
 
-        <SubmitButton text="Sign Up" />
+        <SubmitButton text="Sign Up" href="/login" />
 
         <p className="w-[350px] font-[600] text-center text-[16px] text-[#035655] font-sulphur-point mt-[14px] ">
           By signing up you agree with Our Terms of Services and privacy policy

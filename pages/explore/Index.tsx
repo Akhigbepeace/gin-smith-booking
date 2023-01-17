@@ -17,9 +17,6 @@ const Index = () => {
         <PopularDestinations />
         <ExploreByStates />
       </div>
-      {/* <p className="font-sulphur-point text-center bg-[red] mt-[780px] ">
-        Copyright 2023. Ginsmith Booking
-      </p> */}
       <p className="font-sulphur-point font-[700] text-center p-[10px] bg-black text-white ">Copyright 2023. Ginsmith Booking</p>
     </>
   );

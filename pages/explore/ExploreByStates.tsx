@@ -65,7 +65,7 @@ const ExploreByStates = () => {
       <div className="flex items-center justify-center ">
         <div className="h-[160px] w-[2px] bg-[#D7B67E] relative z-[0] left-[1px] " />
 
-        <div className="grid grid-flow-col gap-[13px] mt-[30px] place-items-center overflow-x-scroll w-[1112px] relative z-[4] ">
+        <div className=" scrollbar grid grid-flow-col gap-[13px] mt-[30px] place-items-center overflow-x-scroll w-[1112px] relative z-[4] ">
           {stateDetails.map((state, index) => (
             <div key={index} className="w-[265px] h-[136px]">
               <Image

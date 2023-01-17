@@ -1,7 +1,7 @@
 import React from "react";
 import Medias from "../../components/molecules/medias";
 import NextLink from "next/link";
-import FormTitle from "../../components/atoms/FormTitle";
+import FormTitle from "../../components/atoms/formTitle";
 import SubmitButton from "../../components/atoms/submitButton";
 
 const Form = () => {
@@ -31,20 +31,20 @@ const Form = () => {
                   key={index}
                   type={input.type}
                   placeholder={input.placeholder}
-                  className="drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] rounded-[30px] w-[351px] h-[41px] mt-[26px] p-[15px_30px] outline-[0] text-[black] placeholder:text-[15px] font-[400] text-[#B3B3B3] font-sulphur-point "
+                  className="drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] rounded-[30px] w-[351px] h-[41px] mt-[26px] p-[15px_30px] outline-[0] text-[black] placeholder:text-[15px] font-[400] font-sulphur-point "
                 />
               );
             })}
           </form>
 
-          <NextLink href="../ForgotPassword" passHref legacyBehavior>
+          <NextLink href="../forgotPassword" passHref legacyBehavior>
             <p className="text-[#EC1F25] font-[400] text-[14px] mb-[36px] mt-[19px] text-right font-sulphur-point cursor-pointer ">
               Forgot Password?
             </p>
           </NextLink>
         </div>
 
-        <SubmitButton text="Login" />
+        <SubmitButton text="Login" href="/loggedIn" />
 
         <div className="flex flex-row items-center ">
           <p className="font-[500] text-center text-[16px] text-[#035655] font-sulphur-point mt-[14px]">

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import FormTitle from "../components/atoms/FormTitle";
+import FormTitle from "../components/atoms/formTitle";
 import DescBanner from "../components/molecules/descBanner";
 import SubmitButton from "../components/atoms/submitButton";
 
@@ -29,10 +29,10 @@ const ForgotPassword = () => {
                 required
                 type="email"
                 placeholder="Email"
-                className="drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] rounded-[30px] w-[351px] h-[41px] mt-[60px] p-[15px_30px] outline-[0] text-[black] placeholder:text-[15px] font-[400] text-[#B3B3B3] font-sulphur-point mb-[27px] "
+                className="drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] rounded-[30px] w-[351px] h-[41px] mt-[60px] p-[15px_30px] outline-[0] text-[black] placeholder:text-[15px] font-[400] font-sulphur-point mb-[27px] "
               />
 
-              <SubmitButton text="Send" />
+              <SubmitButton text="Send" href="#" />
             </form>
           </div>
         </div>
