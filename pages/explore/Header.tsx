@@ -50,8 +50,8 @@ const Header = () => {
           ))}
         </div>
 
-        <NextLink href="/helpcenter" legacyBehavior passHref>
-          <p className="font-sulphur-point ml-[20px] text-[16px] font-[400] text-[#011717] ">
+        <NextLink href="/helpCenter" legacyBehavior passHref>
+          <p className="font-sulphur-point cursor-pointer ml-[20px] text-[16px] font-[400] text-[#011717] ">
             Helpdesk
           </p>
         </NextLink>
