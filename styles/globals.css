@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./fonts.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #035655;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #ededed;
+  border-radius: 100vh;
+  border: 9px solid #035655;
+  display: none;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #c9c9c9;
+}
