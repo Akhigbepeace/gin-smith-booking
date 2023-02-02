@@ -1,0 +1,45 @@
+/* water-brush-regular - latin */
+@font-face {
+  font-family: "Water Brush";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/water-brush-v2-latin/water-brush-v2-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/water-brush-v2-latin/water-brush-v2-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("/fonts/water-brush-v2-latin/water-brush-v2-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/fonts/water-brush-v2-latin/water-brush-v2-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("/fonts/water-brush-v2-latin/water-brush-v2-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/fonts/water-brush-v2-latin/water-brush-v2-latin-regular.svg#WaterBrush")
+      format("svg"); /* Legacy iOS */
+}
+
+/* sulphur-point-regular - latin */
+@font-face {
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/sulphur-point-v14-latin/sulphur-point-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/sulphur-point-v14-latin/sulphur-point-v14-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("/fonts/sulphur-point-v14-latin/sulphur-point-v14-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/fonts/sulphur-point-v14-latin/sulphur-point-v14-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("/fonts/sulphur-point-v14-latin/sulphur-point-v14-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/fonts/sulphur-point-v14-latin/sulphur-point-v14-latin-regular.svg#SulphurPoint")
+      format("svg"); /* Legacy iOS */
+}
