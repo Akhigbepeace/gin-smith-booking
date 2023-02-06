@@ -2,10 +2,9 @@ import React from "react";
 import NextLink from "next/link";
 import Head from "next/head";
 import Image from "next/legacy/image";
-import HelpCenter from "./helpCenter";
 
 const RegisterProperty = () => {
-  const banner = "/assets/Images/register_property.png";
+  const banner = "/assets/images/registerProperty.png";
 
   const propertyDatas = [
     {
