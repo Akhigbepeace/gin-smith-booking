@@ -3,7 +3,7 @@ import Image from "next/image";
 import NextLink from "next/link";
 
 const Home = () => {
-  const earthAbstract = "/assets/images/earth-abstract.png";
+  const earthAbstract = "/assets/images/earthAbstract.png";
   const skyscraper = "/assets/images/skyscraper.svg";
   const facebook = "/assets/images/Facebook.svg";
   const Twitter = "/assets/images/Twitter.svg";
