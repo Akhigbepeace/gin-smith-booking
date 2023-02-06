@@ -27,7 +27,6 @@ const Header = () => {
         <div>
           <NextLink href="/registerProperty" legacyBehavior passHref>
             <a
-              href="/registerProperty"
               className={
                 "bg-transparent rounded-[20px] font-[700] text-center text-[16px] font-sulphur-point text-[#011717] border-[3px] border-[#011717] py-[7px] px-[29px] "
               }
