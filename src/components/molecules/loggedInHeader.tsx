@@ -12,7 +12,7 @@ const LoggedInHeader = () => {
 
       <div className="mr-[57px] flex items-center">
         <div>
-          <NextLink href="#" legacyBehavior passHref>
+          <NextLink href="/registerProperty" legacyBehavior passHref>
             <a
               href="#"
               className={

@@ -48,7 +48,7 @@ const CalendarSearchBanner = () => {
         </div>
         <button
           type="submit"
-          className="h-[47px] rounded-[5px_20px_20px_5px] w-[238.81px] pl-[26px] text-[17px] font-sulphur-point font-[700] text-white mr-[5px] bg-[#035655]  "
+          className="h-[47px] rounded-[5px_20px_20px_5px] w-[200px]  text-[17px] font-sulphur-point font-[700] text-white mr-[5px] bg-[#035655]  "
         >
           SEARCH
         </button>

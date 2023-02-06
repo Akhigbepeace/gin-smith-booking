@@ -25,9 +25,9 @@ const Header = () => {
 
       <div className="mr-[57px] flex items-center">
         <div>
-          <NextLink href="#" legacyBehavior passHref>
+          <NextLink href="/registerProperty" legacyBehavior passHref>
             <a
-              href="#"
+              href="/registerProperty"
               className={
                 "bg-transparent rounded-[20px] font-[700] text-center text-[16px] font-sulphur-point text-[#011717] border-[3px] border-[#011717] py-[7px] px-[29px] "
               }

@@ -5,7 +5,8 @@ import BackButton from "../components/atoms/backButton";
 import NextLink from "next/link";
 
 const MyProfile = () => {
-  const userProfile = "/assets/images/user-image.svg";
+  const userProfileImage = "/assets/images/userImage.svg";
+
   const datas = [
     {
       title: "Change Password",
@@ -48,10 +49,10 @@ const MyProfile = () => {
       </header>
 
       <div className="flex items-center border-b-[2px] border-[#011717] mx-[45px] mb-[37px] pb-[20px] ">
-        <div className="flex flex-col items-center mt-[-140px] ml-[90px] mr-[162px] ">
+        <div className="flex flex-col items-center  mt-[-140px] ml-[90px] mr-[162px] ">
           <div className=" w-[342px] mb-[-60px] ">
             <Image
-              src={userProfile}
+              src={userProfileImage}
               alt="user-profile"
               objectFit="cover"
               width={392}
@@ -61,6 +62,7 @@ const MyProfile = () => {
           <h2 className="font-sulphur-point font-[700] text-[30px] text-[#011717] ">
             Promise Akhigbe
           </h2>
+
           <NextLink href="/editProfile" legacyBehavior passHref>
             <a className=" text-white bg-[#011717] rounded-[40px] font-sulphur-point font-[400] text-[20px] text-center w-[216px] py-[6px] ">
               Edit Profile

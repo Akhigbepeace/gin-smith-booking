@@ -24,7 +24,7 @@ const Form = () => {
         </div>
 
         <p className="w-[350px] font-[600] text-center text-[16px] text-[#035655] font-sulphur-point mt-[14px] ">
-          By signing up you agree with Our Terms of Services and privacy policy
+          By signing up you agree with Our Terms of Services and Privacy Policy
         </p>
 
         <div className="flex flex-row items-center mb-[-20px] mt-[10px] ">

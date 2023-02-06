@@ -4,7 +4,7 @@ import PagesHeader from "../components/molecules/pagesHeader";
 import NextLnk from "next/link";
 import Image from "next/image";
 const rating = "/assets/images/rating.svg";
-const tripImg = "/assets/images/trip-img.svg";
+const tripImg = "/assets/images/tripImg.svg";
 
 const Trips = () => (
   <>

@@ -23,10 +23,7 @@ const Form = () => {
         </p>
 
         <div className="mt-[15px] ">
-          <form
-            action="/loggedIn"
-            className="flex flex-col items-center justify-center "
-          >
+          <form action="/loggedIn" className="flex flex-col justify-center ">
             {inputs.map((input, index) => {
               return (
                 <input
@@ -38,16 +35,16 @@ const Form = () => {
                 />
               );
             })}
+
+            <NextLink href="../forgotPassword" passHref legacyBehavior>
+              <p className="text-[#EC1F25] font-[400] text-[14px] mb-[36px] mt-[19px] text-right font-sulphur-point cursor-pointer ">
+                Forgot Password?
+              </p>
+            </NextLink>
+
+            <SubmitButton text="Login" />
           </form>
-
-          <NextLink href="../forgotPassword" passHref legacyBehavior>
-            <p className="text-[#EC1F25] font-[400] text-[14px] mb-[36px] mt-[19px] text-right font-sulphur-point cursor-pointer ">
-              Forgot Password?
-            </p>
-          </NextLink>
         </div>
-
-        <SubmitButton text="Login" />
 
         <div className="flex flex-row items-center ">
           <p className="font-[500] text-center text-[16px] text-[#035655] font-sulphur-point mt-[14px]">
