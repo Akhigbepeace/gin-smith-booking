@@ -28,20 +28,20 @@ const Header = () => {
           <NextLink href="/registerProperty" legacyBehavior passHref>
             <a
               className={
-                "bg-transparent rounded-[20px] font-[700] text-center text-[16px] font-sulphur-point text-[#011717] border-[3px] border-[#011717] py-[7px] px-[29px] "
+                "rounded-[20px] font-[400] text-center text-[16px] font-sulphur-point text-white bg-[#7B6031] py-[7px] px-[29px] "
               }
             >
               Partner Registration
             </a>
           </NextLink>
         </div>
-        <div className="w-[3px] h-[34px] bg-black mx-[26px]   " />
+        <div className="w-[2px] h-[19px] bg-[#7B6031] mx-[26px]   " />
         <div>
           {datas.map((data, index) => (
             <NextLink key={index} href={data.href} legacyBehavior passHref>
               <a
                 href={data.href}
-                className={`w-[198px] h-[34px] justify-center inline-flex flex-col bg-[${data.bg}] rounded-[20px] font-[700] text-center text-[16px] font-sulphur-point mr-[7px] border-[${data.bg}] text-white `}
+                className={`w-[198px] h-[34px] justify-center inline-flex flex-col bg-[${data.bg}] rounded-[20px] font-[400] text-center text-[16px] font-sulphur-point mr-[7px] border-[${data.bg}] text-white `}
               >
                 {data.title}
               </a>

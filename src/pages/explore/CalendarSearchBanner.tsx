@@ -12,7 +12,7 @@ const CalendarSearchBanner = () => {
       <div className="flex items-center justify-center h-[70px] bg-[rgba(0,0,0,0.7)] w-full absolute mt-[-81px] ">
         <input
           type="text"
-          placeholder="Where are you going to?"
+          placeholder="Where To?"
           className="h-[47px] rounded-[20px_5px_5px_20px] w-[315.03px] pl-[26px] placeholder:text-[14px] font-sulphur-point font-[400] text-[rgba(0,0,0,0.4)] mr-[5px] "
         />
         <input
@@ -48,7 +48,7 @@ const CalendarSearchBanner = () => {
         </div>
         <button
           type="submit"
-          className="h-[47px] rounded-[5px_20px_20px_5px] w-[200px]  text-[17px] font-sulphur-point font-[700] text-white mr-[5px] bg-[#035655]  "
+          className="h-[47px] rounded-[5px_20px_20px_5px] w-[238px] text-center text-[17px] font-sulphur-point font-[700] text-white mr-[5px] bg-[#035655]  "
         >
           SEARCH
         </button>

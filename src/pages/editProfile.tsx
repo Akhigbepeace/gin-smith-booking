@@ -55,37 +55,45 @@ const EditProfile = () => {
       </header>
 
       <div className="flex  border-b-[2px] border-[#011717] mb-[27px] justify-center items-center ">
-        <div className="flex  mr-[123px] mt-[-190px] items-center flex-col w-[342px] ">
-          <Image
-            src={userProfileImage}
-            alt="user-profile"
-            objectFit="cover"
-            width={392}
-            height={392}
-            className="relative"
-          />
+        <div className="flex mr-[123px] flex-col items-center">
+          <div className="flex  mt-[-80px] items-center flex-col ">
+            <Image
+              src={userProfileImage}
+              alt="user-profile"
+              objectFit="cover"
+              width={300}
+              height={300}
+              className="relative"
+            />
 
-          <div className="flex flex-col absolute mt-[230px] items-end ">
-            <NextLink href="#!" legacyBehavior passHref>
-              <Image
-                src={camera}
-                alt="user-profile"
-                objectFit="cover"
-                width={44}
-                height={44}
-                className=" cursor-pointer  "
-              />
-            </NextLink>
+            <div className="flex flex-col absolute mt-[200px] items-end ">
+              <NextLink href="#!" legacyBehavior passHref>
+                <Image
+                  src={camera}
+                  alt="user-profile"
+                  objectFit="cover"
+                  width={44}
+                  height={44}
+                  className=" cursor-pointer  "
+                />
+              </NextLink>
 
-            <h2 className="font-sulphur-point font-[700] text-center text-[30px] mt-[13px] text-[#011717] ">
-              Promise Akhigbe
-            </h2>
+              <h2 className="font-sulphur-point font-[700] text-center text-[30px] mt-[13px] text-[#011717] ">
+                Promise Akhigbe
+              </h2>
+            </div>
           </div>
+
+          <NextLink href="/explore/Index" passHref legacyBehavior>
+            <a className="font-sulphur-point font-[700] text-[20px] text-[#EC1F25] mb-[40px] mt-[140px]">
+              Log out
+            </a>
+          </NextLink>
         </div>
 
         <form
           action="#!"
-          className="flex mt-[50px] mb-[20px] divide-y-2  flex-col w-[724px] "
+          className="flex mt-[50px] mb-[20px] divide-y-2  flex-col w-[524px] "
         >
           {formInputs.map((item, index) => (
             <div
@@ -101,18 +109,12 @@ const EditProfile = () => {
 
               <input
                 type={item.inputType}
-                className="text-right focus-within:shadow-none font-sulphur-point font-[700] text-[20px] text-[#011717]  focus:shadow-none w-[79%] my-[10px] border-none "
+                className="text-right focus-within:shadow-none font-sulphur-point font-[700] text-[20px] text-[#011717]  focus:shadow-none w-[69%] my-[10px] border-none "
               />
             </div>
           ))}
         </form>
       </div>
-
-      <NextLink href="/explore/Index" passHref legacyBehavior>
-        <a className="font-sulphur-point font-[700] text-[20px] text-[#011717] mt-[37px] ml-[190px] ">
-          Log out
-        </a>
-      </NextLink>
     </>
   );
 };

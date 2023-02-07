@@ -71,7 +71,7 @@ const Home = () => {
             </div>
 
             <NextLink href="./explore/Index" passHref legacyBehavior>
-              <a className="mt-[90px] bg-[#011717] py-[16px] text-center font-sulphur-point text-[30px] font-[300] w-[557px] text-white rounded-[40px]">
+              <a className="mt-[90px] bg-[#011717] py-[8px] text-center font-sulphur-point text-[30px] font-[300] w-[557px] text-white rounded-[40px]">
                 Book Now
               </a>
             </NextLink>
