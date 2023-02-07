@@ -11,7 +11,7 @@ const BackButton = ({ linkTo }: BackButtonProps) => {
   return (
     <>
       <NextLink href={linkTo} legacyBehavior passHref>
-        <div className=" grid place-items-center mr-[26px] bg-[#EC1F25] w-[37px] pr-[4px] h-[37px] rounded-[50%]  cursor-pointer ">
+        <a className=" grid place-items-center mr-[26px] bg-[#EC1F25] w-[37px] pr-[4px] h-[37px] rounded-[50%]  cursor-pointer ">
           <Image
             src={arrow}
             alt="arrow"
@@ -19,7 +19,7 @@ const BackButton = ({ linkTo }: BackButtonProps) => {
             height="20"
             className="grid place-items-center"
           />
-        </div>
+        </a>
       </NextLink>
     </>
   );
