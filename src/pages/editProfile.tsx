@@ -113,6 +113,12 @@ const EditProfile = () => {
               />
             </div>
           ))}
+
+          <NextLink href="/editProfile" legacyBehavior passHref>
+            <a className=" text-white bg-[#011717] rounded-[40px] font-sulphur-point font-[400] text-[20px] text-center w-[170px] py-[4px] mt-[30px]">
+              Save
+            </a>
+          </NextLink>
         </form>
       </div>
     </>
