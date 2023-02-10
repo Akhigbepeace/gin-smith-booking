@@ -8,7 +8,22 @@ const Home = () => {
   const facebook = "/assets/images/Facebook.svg";
   const Twitter = "/assets/images/Twitter.svg";
   const Email = "/assets/images/Email.svg";
-  const socials = [Email, Twitter, facebook];
+
+  const socials = [
+    {
+      icon: Email,
+      href: "https://mail.google.com/mail/u/0/#inbox?compose=new",
+    },
+    {
+      icon: Twitter,
+      href: "https://twitter.com/ginsmithbooking",
+    },
+    {
+      icon: facebook,
+      href: "https://www.facebook.com/profile.php?id=100090356522636",
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -56,10 +71,19 @@ const Home = () => {
 
               <div className="flex justify-center mt-[42px]">
                 {socials.map((social, index) => (
-                  <NextLink href="#" key={index} legacyBehavior passHref>
-                    <a href="#" className=" ml-[28px] ">
+                  <NextLink
+                    href={social.href}
+                    key={index}
+                    legacyBehavior
+                    passHref
+                  >
+                    <a
+                      href={social.href}
+                      className=" ml-[28px]"
+                      target="_blank"
+                    >
                       <Image
-                        src={social}
+                        src={social.icon}
                         alt="social icons"
                         width={45}
                         height={45}

@@ -21,8 +21,8 @@ const MyProfile = () => {
       href: "/paymentHistory",
     },
     {
-      title: "Help Center",
-      href: "/helpCenter",
+      title: "Contact Us",
+      href: "/contact",
     },
   ];
   return (
@@ -48,7 +48,7 @@ const MyProfile = () => {
         </h1>
       </header>
 
-      <div className="flex pb-[37px] mb-[20px] border-b-[2px] border-[#011717] mx-[45px]">
+      <div className="flex justify-center pb-[37px] mb-[20px] border-b-[2px] border-[#011717] mx-[45px]">
         <div className="flex flex-col w-[300px]   mr-[254px] ">
           <div className="flex flex-col items-center mt-[-60px] ">
             <div className="mb-[-60px] ">

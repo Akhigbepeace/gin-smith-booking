@@ -30,7 +30,7 @@ const HelpCenter = () => {
           <PagesHeader title="Help Center" href="/profile" />
         </header>
 
-        <div className="pt-[30px] pl-[114px]  ">
+        <div className="flex flex-col items-center justify-center pt-[30px] pl-[114px]  ">
           <div>
             <div>
               <h1 className="font-sulphur-point font-[700] text-[30px]  text-white ">

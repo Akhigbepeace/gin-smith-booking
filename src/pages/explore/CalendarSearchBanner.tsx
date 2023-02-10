@@ -13,11 +13,24 @@ const CalendarSearchBanner = () => {
         <input
           type="text"
           placeholder="Where To?"
-          className="h-[47px] rounded-[20px_5px_5px_20px] w-[315.03px] pl-[26px] placeholder:text-[14px] font-sulphur-point font-[400] text-[rgba(0,0,0,0.4)] mr-[5px] "
+          className="h-[47px] rounded-[20px_5px_5px_20px] w-[315.03px] pl-[26px] placeholder:text-[14px] font-sulphur-point font-[400] placeholder:text-[rgba(0,0,0,0.4)] mr-[px] "
         />
+        {/* <div className="inline-grid grid-flow-row w-[153px] mx-[4px] "> */}
+        <div className="flex flex-col  w-[153px] mx-[4px] ">
+          <input
+            type="text"
+            className="mb-[5px] h-[21px] placeholder:text-[14px] font-sulphur-point font-[400] rounded-[5px]  "
+            placeholder="Hotel"
+          />
+          <input
+            type="text"
+            className=" h-[21px] placeholder:text-[14px] font-sulphur-point font-[400] rounded-[5px]  "
+            placeholder="Service Apartment"
+          />
+        </div>
         <input
           type="date"
-          className="h-[47px] rounded-[5px] w-[142.27px] p-[9px] font-sulphur-point font-[700] text-[13px] text-[#011717] mr-[5px] "
+          className="h-[47px] rounded-[5px] w-[142.27px] p-[9px] font-sulphur-point font-[700] text-[13px] text-[#011717] mr-[5px]  "
         />
         <input
           type="date"
