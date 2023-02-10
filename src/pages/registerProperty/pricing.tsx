@@ -36,8 +36,8 @@ const Pricing = () => {
           </h1>
 
           <div className="grid gap-[30px] ">
-            {pricings.map((pricing) => (
-              <div className="flex justify-between items-center ">
+            {pricings.map((pricing, index) => (
+              <div key={index} className="flex justify-between items-center ">
                 <p className="font-sulphur-point text-[20px] font-[300]  ">
                   {pricing}
                 </p>

@@ -1,24 +1,21 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import NextLink from "next/link";
 
 const DescBanner = () => {
   const earthAbstract = "/assets/images/earthAbstract.png";
   return (
     <div className="flex flex-col items-center justify-center mr-[60px]">
-      <NextLink href="/" legacyBehavior passHref>
-        <Link href="/">
-          <div className="">
-            <h1 className="text-[60px] font-normal text-[#D7B67E] font-water-brush">
-              GinSmith Booking
-            </h1>
+      <NextLink href="/explore/Index" legacyBehavior passHref>
+        <div className="cursor-pointer">
+          <h1 className="text-[60px] font-normal text-[#D7B67E] font-water-brush">
+            GinSmith Booking
+          </h1>
 
-            <p className="text-[20px] font-[400] text-[#D7B67E] text-center font-sulphur-point">
-              Your Trusted Lodging Agency
-            </p>
-          </div>
-        </Link>
+          <p className="text-[20px] font-[400] text-[#D7B67E] text-center font-sulphur-point">
+            Your Trusted Lodging Agency
+          </p>
+        </div>
       </NextLink>
 
       <div className="mb-[50px] mt-[100px]   ">
