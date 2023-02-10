@@ -33,24 +33,14 @@ const Index = () => {
     },
   ];
   return (
-    <div className="bg-[#011717]">
-      {/* <div className="w-full absolute h-screen grid overflow-hidden items-start ">
-        <Image
-        src={hotelBg}
-        alt="hotel-image"
-        layout="fill"
-        width={550}
-        // objectFit="cover"
-        />
-      </div> */}
-
-      <div className="  p-[40px]">
-        <BackButton linkTo={"/profile"} />
+    <div className=" bg-[url('/assets/images/contactPageBg.png')] bg-[#011717]">
+      <div className="p-[40px]">
+        <BackButton linkTo="/profile" />
       </div>
 
-      <div className="mt-[-50px] flex items-center justify-center   ">
+      <div className="mt-[-50px] flex items-center justify-center">
         <div className="font-sulphur-point text-white w-[456px] mr-[50px] ">
-          <h1 className=" font-[300]  leading-[35px] mb-[90px] text-[35px] ">
+          <h1 className="font-[300] leading-[35px] mb-[90px] text-[35px] ">
             We are open for suggestion and feedback
           </h1>
 
