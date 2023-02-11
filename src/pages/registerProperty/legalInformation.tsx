@@ -1,7 +1,7 @@
 import CancelButton from "components/atoms/cancelButton";
 import Head from "next/head";
 import React from "react";
-import { informations } from "./data";
+import { informations } from "../../config/data";
 import Footer from "./footer";
 import PropertyHeader from "./header";
 import NextLink from "next/link";

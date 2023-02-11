@@ -2,7 +2,7 @@ import React from "react";
 import NextLink from "next/link";
 import Head from "next/head";
 import PropertyHeader from "./header";
-import { propertyDatas } from "./data";
+import { propertyDatas } from "../../config/data";
 import Footer from "./footer";
 import CancelButton from "components/atoms/cancelButton";
 import PropertyRegButton from "components/molecules/propertyRegButton";
