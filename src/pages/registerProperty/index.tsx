@@ -1,13 +1,24 @@
 import React from "react";
-import NextLink from "next/link";
-import Head from "next/head";
 import PropertyHeader from "./header";
-import { propertyDatas } from "../../config/data";
-import Footer from "./footer";
-import CancelButton from "components/atoms/cancelButton";
-import PropertyRegButton from "components/molecules/propertyRegButton";
+import Form from "./form";
+import Head from "next/head";
+import NextLink from "next/link";
+import Image from "next/image";
 
-const RegisterProperty = () => {
+const LandingPage = () => {
+  const propertyType = [
+    {
+      name: "Hotel",
+      icon: "",
+      href: <Form />,
+    },
+    {
+      name: "Service Apartment",
+      icon: "",
+      href: <Form />,
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -16,57 +27,53 @@ const RegisterProperty = () => {
 
       <PropertyHeader />
 
-      <form action="#!" className="mt-[93px]  ">
-        <div className=" w-[1100px] mx-auto mb-[30px] ">
-          <label
-            htmlFor="name"
-            className="font-sulphur-point font-[400] text-[25px] "
-          >
-            Property Name:
-          </label>
-          <input
-            type="text"
-            className="w-full mt-[19px] rounded-[15px] h-[56px] shadow-[0px_10px_15px_rgba(0,0,0,0.25)] border-none "
-          />
+      {/* <div>
+        {propertyType.map((property, index) => (
+          <div key={index}>
+            <p>{property.name}</p>
+          </div>
+        ))}
+      </div> */}
+
+      <div className="flex items-center justify-center mt-[85px] ">
+        <div className="w-[244px]">
+          <p className="font-sulphur-point text-center text-[#011717] font-[400] text-[20px] mb-[20px] ">
+            Hotel
+          </p>
+          <NextLink href="./registerProperty/form" legacyBehavior passHref>
+            <div className="cursor-pointer bg-[#D9D9D9] w-[244px] h-[206px] grid place-items-center rounded-[20px] ">
+              <Image
+                src="/assets/images/home.png"
+                alt="home"
+                width={72}
+                height={68}
+              />
+            </div>
+          </NextLink>
         </div>
 
-        <div>
-          {propertyDatas.map((data, index) => {
-            return (
-              <div key={index}>
-                <h1 className="font-sulphur-point font-[400] w-[1100px] mx-auto text-[26px] mt-[115px] mb-[21px] ">
-                  {data.title}
-                </h1>
+        <p className="font-sulphur-point text-[#011717] mt-[52px] mx-[35px] font-[400] text-[25px] mb-[35px] ">
+          OR
+        </p>
 
-                <div className="w-[1244px] pt-[25px] pb-[52px] mx-auto bg-[#F2F2F2] rounded-[20px] px-[66px]  shadow-[0px_10px_10px_rgba(0,0,0,0.25)] ">
-                  {data.fields.map((items, index) => {
-                    return (
-                      <div key={index}>
-                        <label
-                          htmlFor={items.fieldName}
-                          className="block font-sulphur-point font-[400] text-[20px] "
-                        >
-                          {items.fieldName}
-                        </label>
-                        <input
-                          type={items.type}
-                          className="w-full mb-[19px] rounded-[15px] h-[56px] shadow-[0px_5px_10px_rgba(0,0,0,0.25)] border-none "
-                        />
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            );
-          })}
+        <div className="w-[244px]">
+          <p className="font-sulphur-point text-center text-[#011717] font-[400] text-[20px] mb-[20px] ">
+            Service Apartment
+          </p>
+          <NextLink href="./registerProperty/form" legacyBehavior passHref>
+            <div className="cursor-pointer bg-[#D9D9D9] w-[244px] h-[206px] grid place-items-center rounded-[20px] ">
+              <Image
+                src="/assets/images/service.png"
+                alt="home"
+                width={93}
+                height={68}
+              />
+            </div>
+          </NextLink>
         </div>
-
-        <PropertyRegButton href="/registerProperty/roomType" />
-      </form>
-
-      <Footer />
+      </div>
     </>
   );
 };
 
-export default RegisterProperty;
+export default LandingPage;
