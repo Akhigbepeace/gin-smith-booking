@@ -20,7 +20,7 @@ const SuccessfulRegistration = () => {
         <h2 className="text-[50px] mb-[9px] ">PROPERTY REGISTERED</h2>
         <h1 className="text-[78px]">SUCCESSFULLY</h1>
 
-        <Image src={verify} width={600} height={600} />
+        <Image src={verify} alt="verify" width={600} height={600} />
       </div>
 
       <Footer />

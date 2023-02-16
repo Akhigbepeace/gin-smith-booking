@@ -36,3 +36,21 @@ body {
 .scrollbar::-webkit-scrollbar-thumb:hover {
   background: #c9c9c9;
 }
+
+@media screen and (max-width: 768px) {
+  #landing-page {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  #landing-page {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #mobile-index {
+    display: none;
+  }
+}
