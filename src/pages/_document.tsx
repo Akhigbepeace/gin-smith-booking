@@ -16,6 +16,10 @@ export default function Document() {
           href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />
