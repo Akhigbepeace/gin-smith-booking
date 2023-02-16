@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import NextLink from "next/link";
+import ResponsiveIndex from "./mobile";
 
 const Home = () => {
   const earthAbstract = "/assets/images/earthAbstract.png";
@@ -33,7 +34,10 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex items-center justify-center overflow-hidden">
+      <main
+        id="landing-page"
+        className="flex items-center justify-center overflow-hidden "
+      >
         <div className="w-full bg-[#035655] h-screen ">
           <Image
             src={skyscraper}
@@ -102,6 +106,10 @@ const Home = () => {
           </div>
         </div>
       </main>
+
+      <div className="sm:block md:block lg:none ">
+        <ResponsiveIndex />
+      </div>
     </>
   );
 };
