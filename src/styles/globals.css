@@ -51,6 +51,6 @@ body {
 
 @media screen and (min-width: 1024px) {
   #mobile-index {
-    display: none;
+    display: block;
   }
 }

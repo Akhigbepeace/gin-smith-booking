@@ -1,7 +1,7 @@
 import React from "react";
 import NextLink from "next/link";
 
-const Medias = () => {
+const MobileMedia = () => {
   return (
     <div className="flex justify-center mb-[20px]">
       <NextLink
@@ -11,7 +11,7 @@ const Medias = () => {
       >
         <a
           href="https://www.facebook.com/profile.php?id=100090356522636"
-          className={`text-center text-white font-sulphur-point bg-[#2C3192] text-[15px] font-[400] w-[185px] py-[3px] h-[27px] rounded-[20px] ml-[3px]`}
+          className={`text-center text-white font-sulphur-point bg-[#646BEA] text-[15px] py-[7px] font-[400] w-[165px]  rounded-[20px]`}
         >
           Facebook
         </a>
@@ -20,7 +20,7 @@ const Medias = () => {
       <NextLink href="#" legacyBehavior passHref>
         <a
           href="#"
-          className={`text-center text-white font-sulphur-point bg-[#EC1F25] text-[15px] font-[400] w-[185px] py-[3px] h-[27px] rounded-[20px] ml-[3px]`}
+          className={`text-center py-[7px] text-white font-sulphur-point bg-[#EC1F25] text-[15px] font-[400] w-[165px]  rounded-[20px] ml-[9px]`}
         >
           Gmail
         </a>
@@ -29,4 +29,4 @@ const Medias = () => {
   );
 };
 
-export default Medias;
+export default MobileMedia;
