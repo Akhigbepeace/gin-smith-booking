@@ -24,11 +24,11 @@ const ResponsiveIndex = () => {
 
       <h1 className="text-[30px] font-[400] mb-[25px] ">WELCOME</h1>
 
-      <p className=" text-[14px] w-[279px] mb-[54px] ">
+      <p className=" text-[14px] m-auto w-[279px] mb-[54px] ">
         With our 24/7 operation, get around the world via our trusted platform.
       </p>
 
-      <div className="bg-[#C38317] text-[#011717] text-center w-[258px] text-[20px] font-[700] py-[9px] rounded-[20px] ">
+      <div className="bg-[#C38317] m-auto text-[#011717] text-center w-[258px] text-[20px] font-[700] py-[9px] rounded-[20px] ">
         <Link href="./mobile/planYourTrip" legacyBehavior passHref>
           BOOK NOW
         </Link>

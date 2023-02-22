@@ -3,6 +3,7 @@ import React from "react";
 import FormTitle from "../components/atoms/formTitle";
 import DescBanner from "../components/molecules/descBanner";
 import SubmitButton from "../components/atoms/submitButton";
+import MobileForgotPassword from "./mobile/forgotPassword";
 
 const ForgotPassword = () => {
   return (
@@ -11,7 +12,7 @@ const ForgotPassword = () => {
         <title>GINSMITH BOOKING | Forgot Password</title>
       </Head>
 
-      <div className="bg-[#035655] h-screen flex items-center justify-center">
+      <div className="bg-[#035655] h-screen xl:flex lg:hidden sm:hidden items-center justify-center">
         <div className="mr-[200px]">
           <DescBanner />
         </div>
@@ -36,6 +37,10 @@ const ForgotPassword = () => {
             </form>
           </div>
         </div>
+      </div>
+
+      <div className="sm:block xl:hidden">
+        <MobileForgotPassword />
       </div>
     </>
   );
