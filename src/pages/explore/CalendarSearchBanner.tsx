@@ -15,7 +15,6 @@ const CalendarSearchBanner = () => {
           placeholder="Where To?"
           className="h-[47px] rounded-[20px_5px_5px_20px] w-[315.03px] pl-[26px] placeholder:text-[14px] font-sulphur-point font-[400] placeholder:text-[rgba(0,0,0,0.4)] mr-[px] "
         />
-        {/* <div className="inline-grid grid-flow-row w-[153px] mx-[4px] "> */}
         <div className="flex flex-col  w-[153px] mx-[4px] ">
           <input
             type="text"

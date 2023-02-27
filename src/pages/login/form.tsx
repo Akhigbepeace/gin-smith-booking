@@ -18,7 +18,7 @@ const Form = () => {
           <Medias />
         </div>
 
-        <p className="text-center text-[#035655] font-sulphur-point text-[15px] font-[400] cursor-pointer mt-[35px]   ">
+        <p className="text-center text-[#035655] font-sulphur-point text-[15px] font-[400] mt-[35px]">
           Or Login with Email
         </p>
 
