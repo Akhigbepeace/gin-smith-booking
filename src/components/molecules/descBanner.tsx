@@ -24,8 +24,6 @@ const DescBanner = () => {
           alt="abstract-earth"
           width={300}
           height={277}
-          // width={346}
-          // height={277}
         />
       </div>
 
