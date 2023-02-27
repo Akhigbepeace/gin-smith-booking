@@ -2,6 +2,7 @@ import MobileSubmitButton from "components/atoms/mobileSubmitButton";
 import MobileMedia from "components/molecules/mobileMedia";
 import Link from "next/link";
 import React from "react";
+import Home from "pages/mobile/home";
 
 const MobileLoginPage = () => {
   const formInputs = [
@@ -25,7 +26,7 @@ const MobileLoginPage = () => {
         <p className="capitalize font-sulphur-point text-[#003B3B] font-[400] text-[14px] text-center py-[30px] ">
           or sign up with e-mail
         </p>
-        <form>
+        <form action="/mobile/home">
           {formInputs.map((item, index) => (
             <input
               key={index}
@@ -45,6 +46,18 @@ const MobileLoginPage = () => {
             Forgot Password?
           </p>
         </Link>
+
+        <div className="  flex items-center justify-center mt-[25px] ">
+          <p className="capitalize text-[#003B3B] font-sulphur-point font-[400] text-[14px] ">
+            Don't have an account ?
+          </p>
+          <Link
+            href="/signup"
+            className="text-[#06C3C1] font-sulphur-point font-[400] text-[14px] ml-[10px] "
+          >
+            Sign Up
+          </Link>
+        </div>
       </div>
     </div>
   );

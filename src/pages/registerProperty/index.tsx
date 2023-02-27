@@ -27,14 +27,6 @@ const LandingPage = () => {
 
       <PropertyHeader />
 
-      {/* <div>
-        {propertyType.map((property, index) => (
-          <div key={index}>
-            <p>{property.name}</p>
-          </div>
-        ))}
-      </div> */}
-
       <div className="flex items-center justify-center mt-[85px] ">
         <div className="w-[244px]">
           <p className="font-sulphur-point text-center text-[#011717] font-[400] text-[20px] mb-[20px] ">
