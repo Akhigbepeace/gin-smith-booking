@@ -14,7 +14,7 @@ const MyProfile = () => {
     },
     {
       title: "Trips",
-      href: "/trips",
+      href: "/trips/upcoming",
     },
     {
       title: "Payment History",
