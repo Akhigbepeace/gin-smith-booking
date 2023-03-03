@@ -165,9 +165,9 @@ const Home = () => {
           Last Searches
         </h2>
 
-        <div className="grid grid-flow-col gap-[13px] mt-[14px] overflow-x-scroll min-w-[300px] relative mb-[32px]">
+        <div className="grid grid-flow-col gap-[13px] mt-[14px] overflow-x-scroll  relative ">
           {stateDetails.map((state, index) => (
-            <div key={index} className="w-[200px] h-[200px] relative">
+            <div key={index} className="w-[200px] relative">
               <Image
                 src={state.img}
                 alt="state-images"
@@ -177,7 +177,7 @@ const Home = () => {
                 height={200}
               />
 
-              <p className="grid bg-[rgba(0,0,0,0.9)] h-[40px] rounded-[0_0px_20px_20px] text-center font-sulphur-point font-[400] text-[16px] relative top-[-40px] text-[#D7B67E] place-items-center w-[auto] ">
+              <p className="grid bg-[rgba(0,0,0,0.9)] h-[40px] rounded-[0_0px_20px_20px] text-center font-sulphur-point font-[400] text-[16px] relative top-[-45px] text-[#D7B67E] place-items-center w-[auto] ">
                 {state.title}
               </p>
             </div>
@@ -190,9 +190,9 @@ const Home = () => {
           Popular Destination
         </h2>
 
-        <div className="grid grid-flow-col gap-[13px] mt-[14px] overflow-x-scroll min-w-[300px] relative pb-[32px]">
+        <div className="grid grid-flow-col gap-[13px] mt-[14px] overflow-x-scroll relative">
           {stateDetails.map((state, index) => (
-            <div key={index} className="w-[216px] h-[94px] relative">
+            <div key={index} className="w-[230px] relative">
               <Image
                 src={state.img}
                 alt="state-images"
