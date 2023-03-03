@@ -1,3 +1,4 @@
+import Drawer from "components/molecules/drawer";
 import PagesHeader from "components/molecules/pagesHeader";
 import SubPagesButton from "components/molecules/subPagesButton";
 import Link from "next/link";
@@ -29,7 +30,7 @@ const TripsIndex = () => {
   ) as PageLinksProps;
 
   return (
-    <div>
+    <>
       <div>
         <div className="lg:block sm:hidden">
           <PagesHeader title="Trips" href="/profile" />
@@ -59,7 +60,9 @@ const TripsIndex = () => {
           {activePage.content}
         </SubPagesButton>
       </div>
-    </div>
+
+      <Drawer />
+    </>
   );
 };
 

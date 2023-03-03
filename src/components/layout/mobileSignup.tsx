@@ -34,7 +34,7 @@ const MobileSignup = () => {
         <p className="capitalize font-sulphur-point text-[#003B3B] font-[400] text-[14px] text-center py-[30px] ">
           or sign up with e-mail
         </p>
-        <form>
+        <form action="/login">
           {formInputs.map((item, index) => (
             <input
               key={index}

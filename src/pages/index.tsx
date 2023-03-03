@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import NextLink from "next/link";
-import ResponsiveIndex from "./mobile";
+import MobileHomePage from "../components/layout/mobile";
 
 const Home = () => {
   const earthAbstract = "/assets/images/earthAbstract.png";
@@ -112,7 +112,7 @@ const Home = () => {
       </main>
 
       <div className=" lg:block xl:hidden ">
-        <ResponsiveIndex />
+        <MobileHomePage />
       </div>
     </>
   );

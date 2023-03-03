@@ -1,9 +1,9 @@
 import Image from "next/legacy/image";
 import React from "react";
 import { CiSearch } from "react-icons/ci";
-import Drawer from "./drawer";
+import Drawer from "../../components/molecules/drawer";
 
-const Home = () => {
+const MobileExplorePage = () => {
   const banner = "/assets/images/mobileHomeBanner.png";
 
   const ibadan = "/assets/images/ibadan.svg";
@@ -215,4 +215,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default MobileExplorePage;

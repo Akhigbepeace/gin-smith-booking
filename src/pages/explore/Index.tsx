@@ -1,7 +1,7 @@
-import Head from "next/head";
-import PlanYourTrip from "pages/mobile/planYourTrip";
+import Head from "next/head"; 
 import React from "react";
 import CalendarSearchBanner from "./CalendarSearchBanner";
+import MobileExplorePage from "./explore";
 import ExploreByStates from "./ExploreByCity";
 import Header from "./Header";
 import PopularDestinations from "./PopularDestinations";
@@ -23,7 +23,7 @@ const Index = () => {
       </div>
 
       <div className="xl:hidden 2xl:hidden ">
-        <PlanYourTrip />
+        <MobileExplorePage />
       </div>
     </>
   );

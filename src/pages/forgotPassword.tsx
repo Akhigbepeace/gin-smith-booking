@@ -3,7 +3,7 @@ import React from "react";
 import FormTitle from "../components/atoms/formTitle";
 import DescBanner from "../components/molecules/descBanner";
 import SubmitButton from "../components/atoms/submitButton";
-import MobileForgotPassword from "./mobile/forgotPassword";
+import MobileForgotPassword from "../components/layout/mobile/forgotPassword";
 
 const ForgotPassword = () => {
   return (
