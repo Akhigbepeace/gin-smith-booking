@@ -4,7 +4,7 @@ import { MdLocationPin } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 import Link from "next/link";
 
-const Drawer = () => {
+const MobileMenu = () => {
   return (
     <>
       <div className="w-[226px] mx-auto  pb-[15px] pt-[12px] flex items-center justify-between border-t-[2px] border-t-[80%] border-t-[#035655] ">
@@ -116,4 +116,4 @@ const Drawer = () => {
   );
 };
 
-export default Drawer;
+export default MobileMenu;

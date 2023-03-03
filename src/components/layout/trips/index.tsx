@@ -1,4 +1,4 @@
-import Drawer from "components/molecules/drawer";
+import Drawer from "components/molecules/mobileMenu";
 import PagesHeader from "components/molecules/pagesHeader";
 import SubPagesButton from "components/molecules/subPagesButton";
 import Link from "next/link";

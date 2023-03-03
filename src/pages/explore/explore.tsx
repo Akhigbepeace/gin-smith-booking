@@ -1,7 +1,7 @@
 import Image from "next/legacy/image";
 import React from "react";
 import { CiSearch } from "react-icons/ci";
-import Drawer from "../../components/molecules/drawer";
+import Drawer from "../../components/molecules/mobileMenu";
 
 const MobileExplorePage = () => {
   const banner = "/assets/images/mobileHomeBanner.png";
