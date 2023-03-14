@@ -18,10 +18,6 @@ const MobileSignup = () => {
       placeholder: "Email",
       type: "email",
     },
-    {
-      placeholder: "Password",
-      type: "password",
-    },
   ];
   return (
     <div className="bg-[#003B3B]  ">
@@ -34,7 +30,7 @@ const MobileSignup = () => {
         <p className="capitalize font-sulphur-point text-[#003B3B] font-[400] text-[14px] text-center py-[30px] ">
           or sign up with e-mail
         </p>
-        <form>
+        <form action="/login">
           {formInputs.map((item, index) => (
             <input
               key={index}
@@ -44,6 +40,15 @@ const MobileSignup = () => {
               className="block shadow-[0px_4px_10px_rgba(0,0,0,0.25)] rounded-[30px] w-[297px] h-[51px]  p-[15px_30px] text-[20px]  mb-[30px] placeholder:text-[#D2D2D2] text-[black] placeholder:text-[15px] font-[400] font-sulphur-point border-none"
             />
           ))}
+
+          <input
+            required
+            type="password"
+            minLength={8}
+            maxLength={20}
+            placeholder="Password"
+            className="block shadow-[0px_4px_10px_rgba(0,0,0,0.25)] rounded-[30px] w-[297px] h-[51px]  p-[15px_30px] text-[20px]  mb-[30px] placeholder:text-[#D2D2D2] text-[black] placeholder:text-[15px] font-[400] font-sulphur-point border-none"
+          />
 
           <div className="mt-[84px]">
             <MobileSubmitButton title="SIGN UP" />

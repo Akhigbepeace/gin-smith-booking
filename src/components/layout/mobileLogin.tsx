@@ -2,7 +2,7 @@ import MobileSubmitButton from "components/atoms/mobileSubmitButton";
 import MobileMedia from "components/molecules/mobileMedia";
 import Link from "next/link";
 import React from "react";
-import Home from "pages/mobile/home";
+import Home from "components/layout/mobile/explore";
 
 const MobileLoginPage = () => {
   const formInputs = [
@@ -26,7 +26,7 @@ const MobileLoginPage = () => {
         <p className="capitalize font-sulphur-point text-[#003B3B] font-[400] text-[14px] text-center py-[30px] ">
           or sign up with e-mail
         </p>
-        <form action="/mobile/home">
+        <form action="/explore/Index">
           {formInputs.map((item, index) => (
             <input
               key={index}

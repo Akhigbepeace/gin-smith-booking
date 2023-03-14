@@ -1,9 +1,9 @@
 import Image from "next/legacy/image";
 import React from "react";
 import { CiSearch } from "react-icons/ci";
-import Drawer from "./drawer";
+import MobileMenu from "./mobileMenu";
 
-const Home = () => {
+const MobileExplore = () => {
   const banner = "/assets/images/mobileHomeBanner.png";
 
   const ibadan = "/assets/images/ibadan.svg";
@@ -210,9 +210,13 @@ const Home = () => {
         </div>
       </div>
 
-      <Drawer />
+      <MobileMenu
+        exploreIconColor="text-[#00AAA8]"
+        tripsIconColor="text-black"
+        profileIconColor="text-black"
+      />
     </>
   );
 };
 
-export default Home;
+export default MobileExplore;

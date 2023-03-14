@@ -1,12 +1,12 @@
+import MobileExplore from "components/layout/mobile/explore";
 import Head from "next/head";
-import PlanYourTrip from "pages/mobile/planYourTrip";
 import React from "react";
 import CalendarSearchBanner from "./CalendarSearchBanner";
 import ExploreByStates from "./ExploreByCity";
 import Header from "./Header";
 import PopularDestinations from "./PopularDestinations";
 
-const Index = () => {
+const ExplorePage = () => {
   return (
     <>
       <Head>
@@ -23,10 +23,10 @@ const Index = () => {
       </div>
 
       <div className="xl:hidden 2xl:hidden ">
-        <PlanYourTrip />
+        <MobileExplore />
       </div>
     </>
   );
 };
 
-export default Index;
+export default ExplorePage;

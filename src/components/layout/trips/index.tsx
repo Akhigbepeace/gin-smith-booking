@@ -3,6 +3,7 @@ import SubPagesButton from "components/molecules/subPagesButton";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
+import MobileMenu from "../mobile/mobileMenu";
 import { pageLinks, PageLinksProps } from "./constants";
 
 const TripsIndex = () => {
@@ -29,7 +30,7 @@ const TripsIndex = () => {
   ) as PageLinksProps;
 
   return (
-    <div>
+    <>
       <div>
         <div className="lg:block sm:hidden">
           <PagesHeader title="Trips" href="/profile" />
@@ -59,7 +60,13 @@ const TripsIndex = () => {
           {activePage.content}
         </SubPagesButton>
       </div>
-    </div>
+
+      <MobileMenu
+        exploreIconColor="text-black"
+        tripsIconColor="text-[#00AAA8]"
+        profileIconColor="text-black"
+      />
+    </>
   );
 };
 

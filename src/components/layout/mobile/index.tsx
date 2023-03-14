@@ -1,7 +1,6 @@
 import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
-import PlanYourTrip from "./planYourTrip";
 
 const ResponsiveIndex = () => {
   const earthAbstract = "/assets/images/earth.png";
@@ -28,11 +27,12 @@ const ResponsiveIndex = () => {
         With our 24/7 operation, get around the world via our trusted platform.
       </p>
 
-      <div className="bg-[#C38317] m-auto text-[#011717] text-center w-[258px] text-[20px] font-[700] py-[9px] rounded-[20px] ">
-        <Link href="./mobile/planYourTrip" legacyBehavior passHref>
-          BOOK NOW
-        </Link>
-      </div>
+      <Link
+        href="./planYourTrip"
+        className="bg-[#C38317] m-auto text-[#011717] text-center w-[258px] text-[20px] font-[700] py-[9px] rounded-[20px] "
+      >
+        BOOK NOW
+      </Link>
     </div>
   );
 };

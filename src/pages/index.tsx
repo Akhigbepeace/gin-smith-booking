@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import NextLink from "next/link";
-import ResponsiveIndex from "./mobile";
+import ResponsiveIndex from "../components/layout/mobile";
 
 const Home = () => {
   const earthAbstract = "/assets/images/earthAbstract.png";
