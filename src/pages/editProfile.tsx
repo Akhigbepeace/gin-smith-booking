@@ -3,6 +3,7 @@ import Image from "next/legacy/image";
 import React from "react";
 import BackButton from "../components/atoms/backButton";
 import NextLink from "next/link";
+import MobileEditProfile from "components/layout/mobile/mobileEditProfile";
 
 const EditProfile = () => {
   const userProfileImage = "/assets/images/userImage.svg";
@@ -37,7 +38,7 @@ const EditProfile = () => {
         <title>GINSMITH BOOKING | Edit Profile</title>
       </Head>
 
-      <header className="pt-[70px] relative h-[200px]">
+      <header className="pt-[70px] relative h-[200px] sm:hidden lg:block">
         <Image
           src="/assets/images/editbanner.svg"
           alt="profile"
@@ -54,7 +55,7 @@ const EditProfile = () => {
         </h1>
       </header>
 
-      <div className="flex  border-b-[2px] border-[#011717] mb-[27px] justify-center items-center ">
+      <div className="sm:hidden xl:flex border-b-[2px] border-[#011717] mb-[27px] justify-center items-center ">
         <div className="flex mr-[123px] flex-col items-center">
           <div className="flex  mt-[-80px] items-center flex-col ">
             <Image
@@ -120,6 +121,10 @@ const EditProfile = () => {
             </a>
           </NextLink>
         </form>
+      </div>
+
+      <div className="xl:hidden lg:block md:block sm:block ">
+        <MobileEditProfile />
       </div>
     </>
   );

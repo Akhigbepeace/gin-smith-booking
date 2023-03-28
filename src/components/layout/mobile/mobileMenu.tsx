@@ -14,16 +14,18 @@ const MobileMenu = (props: MobileMenuProps) => {
   const { exploreIconColor, tripsIconColor, profileIconColor } = props;
 
   return (
-    <div className="w-[226px] mx-auto  pb-[15px] pt-[12px] flex items-center justify-between border-t-[2px] border-t-[80%] border-t-[#035655] ">
-      <Link href="/explore/Index">
-        <BsFillHouseFill size="25px" className={exploreIconColor} />
-      </Link>
+    <div className="w-full fixed bottom-0 bg-white">
+      <div className="w-[226px] mx-auto pb-[15px] pt-[12px] flex items-center justify-between border-t-[2px] border-t-[80%] border-t-[#035655] ">
+        <Link href="/explore/Index">
+          <BsFillHouseFill size="25px" className={exploreIconColor} />
+        </Link>
 
-      <Link href="/trips/upcoming">
-        <MdLocationPin size="25px" className={tripsIconColor} />
-      </Link>
+        <Link href="/trips/upcoming">
+          <MdLocationPin size="25px" className={tripsIconColor} />
+        </Link>
 
-      <MobileMenuDrawer profileIconColor={profileIconColor} />
+        <MobileMenuDrawer profileIconColor={profileIconColor} />
+      </div>
     </div>
   );
 };

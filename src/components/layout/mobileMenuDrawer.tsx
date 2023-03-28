@@ -72,7 +72,7 @@ const MobileMenuDrawer = (props: MobileMenuProps) => {
 
                 <h2 className="text-[24px]">User Name</h2>
                 <Link
-                  href=""
+                  href="/editProfile"
                   className="bg-[#C38317] text-[#003B3B] p-[3px_20px] font-[700] text-[16px] rounded-[10px]  "
                 >
                   Edit Profile
